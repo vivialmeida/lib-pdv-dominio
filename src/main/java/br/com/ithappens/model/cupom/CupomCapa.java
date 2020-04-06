@@ -40,12 +40,4 @@ public class CupomCapa {
         private Long cupomPai;
 
 
-
-
-
-
-
-
-
-
 }
