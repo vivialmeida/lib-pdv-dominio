@@ -1,6 +1,5 @@
 package br.com.ithappens.mapper;
 
-import br.com.ithappens.model.DeleteMe;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
