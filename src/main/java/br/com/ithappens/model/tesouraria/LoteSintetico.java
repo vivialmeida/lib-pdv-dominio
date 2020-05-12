@@ -1,11 +1,10 @@
 package br.com.ithappens.model.tesouraria;
 
+import br.com.ithappens.model.tesouraria.enums.StatusLoteSintetico;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.time.LocalDate;
 
 @Data
 @Builder
@@ -14,9 +13,8 @@ import java.time.LocalDate;
 public class LoteSintetico {
 
     private Long id;
-    private Long idFilial;
     private Long idLote;
-    private LocalDate data;
-//    private StatusLoteSinteticoCartaoOff status;
+    private Long idFinalizadora;
+    private Integer status = StatusLoteSintetico.PENDENTE.getValor();;
     private String hash;
 }
