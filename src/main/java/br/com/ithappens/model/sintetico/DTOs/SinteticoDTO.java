@@ -1,4 +1,4 @@
-package br.com.ithappens.model.sintetico;
+package br.com.ithappens.model.sintetico.DTOs;
 
 import br.com.ithappens.model.tesouraria.LoteTesouraria;
 import lombok.AllArgsConstructor;
@@ -13,7 +13,7 @@ import java.time.LocalDate;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class SinteticoCartaoOff {
+public class SinteticoDTO {
 
     private Long       id;
     private LocalDate  data;

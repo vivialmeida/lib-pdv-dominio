@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 public class FechamentoLoja {
 
     private Long id;
-    private Long IdFilial;
+    private Long idFilial;
     private LocalDateTime data;
     private Integer status;
 }
