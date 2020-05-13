@@ -27,6 +27,7 @@ public class SinteticoDTO {
     private BigDecimal valorEstoque    = BigDecimal.ZERO;
     private BigDecimal valorIntegracao = BigDecimal.ZERO;
     private BigDecimal valorCartao     = BigDecimal.ZERO;
+    private Long       pedidoDevolucao;
     private Boolean    devolucao = Boolean.valueOf(false);
     private Integer    tipouso;
     private LoteTesouraria loteTesouraria;
