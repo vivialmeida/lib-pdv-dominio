@@ -5,7 +5,8 @@ public enum StatusLoteSintetico {
     PENDENTE                    (0),
     ERRO                        (1),
     PENDENTE_DEVOLUCAO          (2),
-    PROCESSADO                  (3);
+    PROCESSADO                  (3),
+    PROCESSADO_SEM_PEDIDOS      (4);
 
     private Integer valor;
 
