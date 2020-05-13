@@ -18,7 +18,6 @@ public class SinteticoDTO {
     private Long       id;
     private LocalDate  data;
     private Long       idLote;
-    private Long       idCliente;
     private Long       idFilial;
     private Long       idPedido;
     private Long       pdv;
@@ -27,6 +26,7 @@ public class SinteticoDTO {
     private BigDecimal valorFinanceiro = BigDecimal.ZERO;
     private BigDecimal valorEstoque    = BigDecimal.ZERO;
     private BigDecimal valorIntegracao = BigDecimal.ZERO;
+    private BigDecimal valorCartao     = BigDecimal.ZERO;
     private Boolean    devolucao = Boolean.valueOf(false);
     private Integer    tipouso;
     private LoteTesouraria loteTesouraria;
