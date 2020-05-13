@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -14,6 +16,7 @@ public class LoteSintetico {
     private Long idLote;
     private LoteTesouraria loteTesouraria;
     private Long idFinalizadora;
-    private Integer status = StatusLoteSintetico.PENDENTE.getValor();;
+    private Integer status = StatusLoteSintetico.PENDENTE.getValor();
     private String hash;
+    private LocalDate data;
 }
