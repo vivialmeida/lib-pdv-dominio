@@ -17,7 +17,7 @@ public class SinteticoDTO {
 
     private Long       id;
     private LocalDate  data;
-    private Long       idLote;
+    private Long       idLoteSintetico;
     private Long       idFilial;
     private Long       idPedido;
     private Long       pdv;
