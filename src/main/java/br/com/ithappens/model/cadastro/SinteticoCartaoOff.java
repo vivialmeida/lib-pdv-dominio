@@ -1,4 +1,4 @@
-package br.com.ithappens.model.sintetico;
+package br.com.ithappens.model.cadastro;
 
 import br.com.ithappens.model.tesouraria.LoteTesouraria;
 import lombok.AllArgsConstructor;
@@ -16,10 +16,11 @@ import java.time.LocalDate;
 public class SinteticoCartaoOff {
 
     private Long       id;
-    private LocalDate  data;
     private Long       idLoteSintetico;
     private Long       idFilial;
+    private Long       idCliente;
     private Long       idPedido;
+    private LocalDate  data;
     private Long       pdv;
     private Long       cupom;
     private BigDecimal valorCupom      = BigDecimal.ZERO;
