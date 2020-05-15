@@ -30,6 +30,6 @@ public class SinteticoCartaoOff {
     private BigDecimal valorCartao     = BigDecimal.ZERO;
     private Long       pedidoDevolucao;
     private Boolean    devolucao = Boolean.valueOf(false);
-    private Integer    tipouso;
+    private Integer    tipoUso;
     private LoteTesouraria loteTesouraria;
 }
