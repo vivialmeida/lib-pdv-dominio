@@ -29,7 +29,7 @@ public class SinteticoCartaoOff {
     private BigDecimal valorIntegracao = BigDecimal.ZERO;
     private BigDecimal valorCartao     = BigDecimal.ZERO;
     private Long       pedidoDevolucao;
-    private Boolean    devolucao = Boolean.valueOf(false);
+    private Integer    devolucao = 0;
     private Integer    tipoUso;
     private LoteTesouraria loteTesouraria;
 }
