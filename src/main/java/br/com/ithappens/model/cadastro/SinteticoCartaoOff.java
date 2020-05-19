@@ -32,4 +32,6 @@ public class SinteticoCartaoOff {
     private Integer    devolucao = 0;
     private Integer    tipoUso;
     private LoteTesouraria loteTesouraria;
+    private Long       nsu;
+    private Long       numeroCartao;
 }

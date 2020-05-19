@@ -31,4 +31,20 @@ public class SinteticoDTO {
     private Boolean    devolucao = Boolean.valueOf(false);
     private Integer    tipouso;
     private LoteTesouraria loteTesouraria;
+    private Long       nsu;
+    private Long       numeroCartao;
+
+    public Long getNsu(){
+        if(nsu == null)
+            return 0L;
+
+        return nsu;
+    }
+
+    public Long getNumeroCartao(){
+        if(numeroCartao == null)
+            return 0L;
+
+        return numeroCartao;
+    }
 }
