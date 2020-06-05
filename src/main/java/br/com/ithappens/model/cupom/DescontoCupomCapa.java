@@ -5,7 +5,7 @@ import lombok.Data;
 import java.time.LocalDate;
 
 @Data
-public class DescontoCupom {
+public class DescontoCupomCapa {
 
     private Long        id;
     private Long        idCupomCapa;
