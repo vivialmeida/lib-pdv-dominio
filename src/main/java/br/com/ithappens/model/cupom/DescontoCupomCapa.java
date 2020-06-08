@@ -10,7 +10,7 @@ public class DescontoCupomCapa {
     private Long        id;
     private Long        idCupomCapa;
     private Long        idFilial;
-    private LocalDate   data;
+    private LocalDate   dataVenda;
     private Integer     cupom;
     private Integer     pdv;
     private Integer     motivo;
@@ -25,5 +25,6 @@ public class DescontoCupomCapa {
     private String      nomeOperador;
     private Integer     codUserDesconto;
     private String      nomeUserDesconto;
+    private Integer     quantidade;
 
 }
