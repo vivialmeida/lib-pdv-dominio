@@ -12,6 +12,10 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class LoteSintetico {
 
+    public static final int VENDA    = 1;
+    public static final int CARTAO   = 2;
+    public static final int DESCONTO = 3;
+
     private Long id;
     private Long idLote;
     private LoteTesouraria loteTesouraria;
@@ -19,4 +23,5 @@ public class LoteSintetico {
     private Integer status = StatusLoteSintetico.PENDENTE.getValor();
     private String hash;
     private LocalDate data;
+    private Integer      processo;
 }
