@@ -3,6 +3,7 @@ package br.com.ithappens.model.cupom;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 public class DescontoCupomCapa {
@@ -11,7 +12,6 @@ public class DescontoCupomCapa {
     private Long        idCupomCapa;
     private Long        idFilial;
     private LocalDate   dataVenda;
-    private LocalDate   dataItem;
     private Integer     cupom;
     private Integer     pdv;
     private Integer     motivo;
@@ -27,5 +27,6 @@ public class DescontoCupomCapa {
     private Integer     codUserDesconto;
     private String      nomeUserDesconto;
     private Integer     quantidade;
+    private LocalDateTime   dataItem;
 
 }
