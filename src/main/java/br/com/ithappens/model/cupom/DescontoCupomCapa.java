@@ -11,6 +11,7 @@ public class DescontoCupomCapa {
     private Long        idCupomCapa;
     private Long        idFilial;
     private LocalDate   dataVenda;
+    private LocalDate   dataItem;
     private Integer     cupom;
     private Integer     pdv;
     private Integer     motivo;
