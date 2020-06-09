@@ -3,13 +3,11 @@ package br.com.ithappens.model.cupom;
 import lombok.Data;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 @Data
-public class DescontoCupomCapa {
+public class AuditoriaDescontoCupom {
 
     private Long        id;
-    private Long        idCupomCapa;
     private Long        idFilial;
     private LocalDate   dataVenda;
     private Integer     cupom;
@@ -19,14 +17,11 @@ public class DescontoCupomCapa {
     private Long        codProduto;
     private Long        codDepartamento;
     private Double      vlrDescontoItem;
-    private Double      vlrDescontoTotal;
     private Double      vlrVendaLiquida;
     private Double      vlrVendaBruta;
     private Integer     codOperador;
-    private String      nomeOperador;
     private Integer     codUserDesconto;
-    private String      nomeUserDesconto;
     private Integer     quantidade;
-    private LocalDateTime   dataItem;
+    private Integer     sequencia;
 
 }
