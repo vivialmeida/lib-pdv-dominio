@@ -28,4 +28,5 @@ public class FechamentoMovimento {
         private BigDecimal valorCancelamento;
         private BigDecimal valorVendaBruta;
         private BigDecimal vendaLiquida;
+        private Integer pdv;
 }
