@@ -15,13 +15,11 @@ public class AuditoriaDescontoCupom {
     private Integer     motivo;
     private Integer     codTipo;
     private Long        codProduto;
-    private Long        codDepartamento;
     private Double      vlrDescontoItem;
     private Double      vlrVendaLiquida;
     private Double      vlrVendaBruta;
     private Integer     codOperador;
     private Integer     codUserDesconto;
-    private Integer     quantidade;
+    private Double      quantidade;
     private Integer     sequencia;
-
 }
