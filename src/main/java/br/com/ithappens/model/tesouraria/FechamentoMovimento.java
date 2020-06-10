@@ -7,7 +7,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-import java.util.Date;
+import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
@@ -20,7 +20,7 @@ public class FechamentoMovimento {
         private Long id;
 
         @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-        private Date dataMovimento;
+        private LocalDate  dataMovimento;
         private BigDecimal valorVenda;
         private BigDecimal valorApurado;
         private BigDecimal valorDesconto;
