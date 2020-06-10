@@ -17,6 +17,7 @@ public class FechamentoMovimento {
 
         private Long filialId;
         private Long fechamentoLojaId;
+        private Long id;
 
         @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
         private Date dataMovimento;
