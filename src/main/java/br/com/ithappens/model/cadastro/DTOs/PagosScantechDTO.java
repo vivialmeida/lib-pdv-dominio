@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 @Data
 public class PagosScantechDTO {
 
-    private Integer recargo;
+    private Integer codigoTipoPago;
     private Integer codigoMoneda = 986;
     private BigDecimal importe;
     private BigDecimal cotizacion = BigDecimal.valueOf(1);
