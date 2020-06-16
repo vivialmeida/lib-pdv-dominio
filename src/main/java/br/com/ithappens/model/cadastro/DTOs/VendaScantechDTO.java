@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 public class VendaScantechDTO {
 
-    private Long          idCupomCapa,
+    private Long          idCupomCapa;
     private LocalDateTime fecha;
     private Integer       numero;
     private BigDecimal    descuentoTotal;
