@@ -1,5 +1,6 @@
 package br.com.ithappens.model.cadastro.DTOs;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -8,9 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
+@JsonFormat
 public class VendaScantechDTO {
 
-    private Long          idCupomCapa;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh:mm:ss", timezone = "UTC")
     private LocalDateTime fecha;
     private Integer       numero;
     private BigDecimal    descuentoTotal;
