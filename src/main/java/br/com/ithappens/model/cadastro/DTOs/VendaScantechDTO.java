@@ -17,7 +17,7 @@ public class VendaScantechDTO {
     @JsonSerialize(using = LocalDateSerializer.class)
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss", timezone = "UTC")
-    private LocalDateTime fecha;
+    private String        fecha;
     private Integer       numero;
     private BigDecimal    descuentoTotal;
     private BigDecimal    recargoTotal;
