@@ -1,7 +1,5 @@
 package br.com.ithappens.model.cadastro.DTOs;
 
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -11,7 +9,6 @@ import java.util.List;
 @Data
 public class VendaScantechDTO {
 
-    @JsonSerialize(using = LocalDateSerializer.class)
     private String        fecha;
     private Integer       numero;
     private BigDecimal    descuentoTotal;
