@@ -15,6 +15,7 @@ import java.util.List;
 public class VendaScantechDTO {
 
     @JsonSerialize(using = LocalDateSerializer.class)
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSZ", timezone = "UTC")
     private LocalDateTime fecha;
     private Integer       numero;
