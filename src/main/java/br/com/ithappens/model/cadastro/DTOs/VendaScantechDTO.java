@@ -1,6 +1,8 @@
 package br.com.ithappens.model.cadastro.DTOs;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -9,9 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
-@JsonFormat
 public class VendaScantechDTO {
 
+    @JsonSerialize(using = LocalDateSerializer.class)
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh:mm:ss", timezone = "UTC")
     private LocalDateTime fecha;
     private Integer       numero;
