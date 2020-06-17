@@ -3,6 +3,10 @@ package br.com.ithappens.model.cadastro.DTOs;
 import lombok.Data;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,4 +25,11 @@ public class VendaScantechDTO {
     private List<DetalheScantechDTO> detalles = new ArrayList<>();
     private List<PagosScantechDTO> pagos = new ArrayList<>();
 
+    public String getFecha(){
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss");
+        LocalDateTime dateTime = LocalDateTime.parse(fecha, formatter);
+        formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
+        return  ZonedDateTime.from(dateTime).format(formatter);
+    }
 }

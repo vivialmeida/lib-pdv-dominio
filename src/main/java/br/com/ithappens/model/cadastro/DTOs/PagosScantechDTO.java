@@ -13,5 +13,5 @@ public class PagosScantechDTO {
     private BigDecimal cotizacion = BigDecimal.valueOf(1);
     private String documentoCliente = "null";
     private String bin = "null";
-    private String codigoTarjeta = "null";
+    private Integer codigoTarjeta = null;
 }
