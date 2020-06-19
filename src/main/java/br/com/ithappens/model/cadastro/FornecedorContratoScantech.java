@@ -11,5 +11,5 @@ public class FornecedorContratoScantech {
     private Long idFornecedor;
     private Integer ativo;
 
-    private List<Produto> produtos;
+    private List<Produto> produtoList;
 }

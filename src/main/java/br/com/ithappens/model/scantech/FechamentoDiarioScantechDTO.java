@@ -1,4 +1,4 @@
-package br.com.ithappens.model.cadastro.DTOs;
+package br.com.ithappens.model.scantech;
 
 
 import lombok.Data;
