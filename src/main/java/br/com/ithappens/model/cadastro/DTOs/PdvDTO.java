@@ -1,6 +1,7 @@
 package br.com.ithappens.model.cadastro.DTOs;
 
 import br.com.ithappens.model.cupom.CupomCapa;
+import br.com.ithappens.model.tesouraria.FechamentoMovimento;
 import lombok.Data;
 
 import java.time.LocalDate;
@@ -13,5 +14,5 @@ public class PdvDTO {
     private Integer pdv;
     private Integer qtdMovimentos;
     private List<CupomCapa> cupomCapaList;
-    private Integer movimento;
+    private List<FechamentoMovimento> listMov;
 }
