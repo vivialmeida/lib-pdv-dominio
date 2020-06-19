@@ -10,6 +10,8 @@ import java.util.List;
 public class PdvDTO {
 
     private LocalDate fechamento;
+    private Integer pdv;
     private Integer qtdMovimentos;
     private List<CupomCapa> cupomCapaList;
+    private Integer movimento;
 }
