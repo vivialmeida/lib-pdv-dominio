@@ -14,6 +14,8 @@ public class FechamentoDiarioScantechDTO {
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date fechaVentas;
+    private Long idFilial;
+    private Integer pdv;
     private BigDecimal montoVentaLiquida;
     private Integer montoCancelaciones;
     private Integer cantidadMovimientos;
