@@ -15,6 +15,7 @@ public class LoteSintetico {
     public static final int VENDA    = 1;
     public static final int CARTAO   = 2;
     public static final int DESCONTO = 3;
+    public static final int SCANTECH = 4;
 
     private Long id;
     private Long idLote;
@@ -23,5 +24,5 @@ public class LoteSintetico {
     private Integer status = StatusLoteSintetico.PENDENTE.getValor();
     private String hash;
     private LocalDate data;
-    private Integer      processo;
+    private Integer processo;
 }
