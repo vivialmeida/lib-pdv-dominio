@@ -13,6 +13,8 @@ import java.util.List;
 @Data
 public class VendaScantechDTO {
 
+    private Long idFilial;
+    private Integer pdv;
     private String fecha;
     private Integer numero;
     private BigDecimal descuentoTotal;
