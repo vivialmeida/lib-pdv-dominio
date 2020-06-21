@@ -1,5 +1,6 @@
 package br.com.ithappens.model.scantech;
 
+import br.com.ithappens.model.cadastro.DTOs.PdvDTO;
 import br.com.ithappens.model.cadastro.FornecedorContratoScantech;
 import lombok.Data;
 
@@ -14,4 +15,5 @@ public class ScantechDTO {
     private List<FornecedorContratoScantech> fornecedor;
     private FechamentoDiarioScantechDTO fechamento;
     private FilialScantech idFilial;
+    private List<PdvDTO> pdvs;
 }
