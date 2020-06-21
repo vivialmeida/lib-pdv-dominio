@@ -13,5 +13,5 @@ public class ScantechDTO {
     private LocalDate data;
     private List<FornecedorContratoScantech> fornecedor;
     private FechamentoDiarioScantechDTO fechamento;
-    private FilialScantech filial;
+    private FilialScantech idFilial;
 }
