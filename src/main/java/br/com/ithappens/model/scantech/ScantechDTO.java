@@ -10,10 +10,10 @@ import java.util.List;
 @Data
 public class ScantechDTO {
 
-    private List<FilialScantech> filialList;
     private LocalDate data;
     private List<FornecedorContratoScantech> fornecedor;
     private FechamentoDiarioScantechDTO fechamento;
     private Long idFilial;
+    private Long idLoteSintetico;
     private List<PdvDTO> pdvs;
 }
