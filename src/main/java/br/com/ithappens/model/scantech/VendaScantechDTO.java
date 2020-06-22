@@ -1,5 +1,6 @@
 package br.com.ithappens.model.scantech;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -13,7 +14,9 @@ import java.util.List;
 @Data
 public class VendaScantechDTO {
 
+    @JsonIgnore
     private Long idFilial;
+    @JsonIgnore
     private Integer pdv;
     private String fecha;
     private Integer numero;
