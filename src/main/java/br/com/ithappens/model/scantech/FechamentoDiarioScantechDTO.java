@@ -17,7 +17,7 @@ public class FechamentoDiarioScantechDTO {
     private Long idFilial;
     private Integer pdv;
     private BigDecimal montoVentaLiquida;
-    private Integer montoCancelaciones;
+    private BigDecimal montoCancelaciones;
     private Integer cantidadMovimientos;
     private Integer cantidadCancelaciones;
 
