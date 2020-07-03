@@ -30,6 +30,11 @@ public class VendaScantechDTO {
     private List<DetalheScantechDTO> detalles = new ArrayList<>();
     private List<PagosScantechDTO> pagos = new ArrayList<>();
 
+    @JsonIgnore
+    private Long idProduto;
+    @JsonIgnore
+    private String descProd;
+
     public String getFecha() {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
