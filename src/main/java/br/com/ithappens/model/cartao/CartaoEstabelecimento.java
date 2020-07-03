@@ -1,6 +1,6 @@
 package br.com.ithappens.model.cartao;
 
-import br.com.ithappens.financeiro.model.cadastro.Filial;
+import br.com.ithappens.model.cadastro.Filial;
 import lombok.Data;
 
 @Data

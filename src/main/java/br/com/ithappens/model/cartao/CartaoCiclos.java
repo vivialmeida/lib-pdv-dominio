@@ -1,7 +1,8 @@
 package br.com.ithappens.model.cartao;
 
-import br.com.ithappens.financeiro.model.sitef.Produtos;
-import br.com.ithappens.financeiro.model.sitef.Redes;
+
+import br.com.ithappens.sitef.Produto;
+import br.com.ithappens.sitef.Rede;
 import lombok.Data;
 
 @Data
@@ -9,8 +10,8 @@ public class CartaoCiclos {
 
     private Long id;
     private CartaoConfiguracao cartaoConfiguracao;
-    private Produtos produtos;
-    private Redes redes;
+    private Produto produtos;
+    private Rede redes;
     private TipoCiclo tipoCiclo;
     private Integer ciclo;
     private Integer diaDeposito;

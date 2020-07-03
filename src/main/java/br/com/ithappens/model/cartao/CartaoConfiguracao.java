@@ -1,7 +1,7 @@
 package br.com.ithappens.model.cartao;
 
-import br.com.ithappens.financeiro.model.cadastro.Cliente;
-import br.com.ithappens.financeiro.model.cadastro.Empresa;
+import br.com.ithappens.model.cadastro.Cliente;
+import br.com.ithappens.model.cadastro.Empresa;
 import lombok.Data;
 
 @Data
