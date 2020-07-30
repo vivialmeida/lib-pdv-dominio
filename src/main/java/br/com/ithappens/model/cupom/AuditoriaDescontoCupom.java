@@ -22,4 +22,5 @@ public class AuditoriaDescontoCupom {
     private Integer     codUserDesconto;
     private Double      quantidade;
     private Integer     sequencia;
+    private Long        idLote;
 }
