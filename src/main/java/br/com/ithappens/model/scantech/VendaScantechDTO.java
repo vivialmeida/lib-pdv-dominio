@@ -22,7 +22,11 @@ public class VendaScantechDTO {
     private Integer pdv;
     private String fecha;
     @JsonIgnore
-    private Long id;
+    private Long idCupomFinalizadora;
+    @JsonIgnore
+    private Long idCupom;
+    @JsonIgnore
+    private Long idCupomProduto;
     private Integer numero;
     private BigDecimal descuentoTotal;
     private BigDecimal recargoTotal;
