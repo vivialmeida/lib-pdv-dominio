@@ -19,6 +19,8 @@ public class VendaScantechDTO {
     @JsonIgnore
     private Integer pdv;
     private String fecha;
+    @JsonIgnore
+    private Long id;
     private Integer numero;
     private BigDecimal descuentoTotal;
     private BigDecimal recargoTotal;
