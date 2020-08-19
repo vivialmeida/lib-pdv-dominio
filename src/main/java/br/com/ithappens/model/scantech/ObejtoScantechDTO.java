@@ -1,6 +1,7 @@
 package br.com.ithappens.model.scantech;
 
 import br.com.ithappens.model.cadastro.Produto;
+import br.com.ithappens.model.tesouraria.LoteSintetico;
 import lombok.Data;
 
 import java.time.LocalDate;
@@ -14,5 +15,5 @@ public class ObejtoScantechDTO {
     private List<Produto> prodList;
     private LocalDate data;
     private List<VendaScantechDTO> cupons;
-    private Long idLoteSintetico;
+    private LoteSintetico loteSintetico;
 }
