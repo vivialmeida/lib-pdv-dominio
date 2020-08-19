@@ -8,7 +8,8 @@ public enum StatusLoteSintetico {
     PROCESSADO                  (3),
     PROCESSADO_SEM_PEDIDOS      (4),
     PROCESSADO_SEM_DESCONTOS    (5),
-    SEM_MOVIMENTO_LOTE          (6);
+    SEM_MOVIMENTO_LOTE          (6),
+    SEM_LOCAL                   (7);
 
     private Integer valor;
 
