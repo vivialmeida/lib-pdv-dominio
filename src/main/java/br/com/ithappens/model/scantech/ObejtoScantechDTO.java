@@ -14,4 +14,5 @@ public class ObejtoScantechDTO {
     private List<Produto> prodList;
     private LocalDate data;
     private List<VendaScantechDTO> cupons;
+    private Long idLoteSintetico;
 }
