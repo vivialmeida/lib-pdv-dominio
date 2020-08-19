@@ -27,6 +27,8 @@ public class VendaScantechDTO {
     private Long idCupom;
     @JsonIgnore
     private Long idCupomProduto;
+    @JsonIgnore
+    private Long idLoteSintetico;
     private Integer numero;
     private BigDecimal descuentoTotal;
     private BigDecimal recargoTotal;
