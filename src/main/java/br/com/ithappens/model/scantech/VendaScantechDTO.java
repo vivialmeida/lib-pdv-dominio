@@ -80,7 +80,7 @@ public class VendaScantechDTO {
         return  valor;
     }
 
-    public void adcionarValorPago(BigDecimal valor){
+    public void adicionarValorPago(BigDecimal valor){
         if(this.getPagos() != null && !this.getPagos().isEmpty())
             this.getPagos().get(0).setImporte(this.getPagos().get(0).getImporte().add(valor));
     }
