@@ -55,4 +55,34 @@ public class VendaScantechDTO {
         return s;
 
     }
+
+    public BigDecimal getTotal(){
+        BigDecimal valor =  BigDecimal.ZERO;
+        for (DetalheScantechDTO dto: this.getDetalles()) {
+            valor = valor.add(dto.getImporte());
+        }
+        return  valor;
+    }
+
+    public BigDecimal getDescuentoTotal(){
+        BigDecimal valor =  BigDecimal.ZERO;
+        for (DetalheScantechDTO dto: this.getDetalles()) {
+            valor = valor.add(dto.getDescuento());
+        }
+        return  valor;
+    }
+
+    public BigDecimal getRecargoTotal(){
+        BigDecimal valor =  BigDecimal.ZERO;
+        for (DetalheScantechDTO dto: this.getDetalles()) {
+            valor = valor.add(dto.getRecargo());
+        }
+        return  valor;
+    }
+
+    public void adcionarValorPago(BigDecimal valor){
+        if(this.getPagos() != null && !this.getPagos().isEmpty())
+            this.getPagos().get(0).setImporte(this.getPagos().get(0).getImporte().add(valor));
+    }
+
 }
