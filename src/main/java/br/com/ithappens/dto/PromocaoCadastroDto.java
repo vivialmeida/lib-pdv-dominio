@@ -27,7 +27,6 @@ public class PromocaoCadastroDto {
     private Integer pdv;
     private Long idFilial;
     private List<PromocaoProdutoDto> produtos;
-    private Integer tipo;
 
     public PromocaoCadastroDto(CupomCapaDto cupomCapaDto) {
         this.cpf = cupomCapaDto.getCpfCrm();
