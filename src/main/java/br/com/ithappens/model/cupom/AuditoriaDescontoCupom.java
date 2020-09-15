@@ -2,6 +2,7 @@ package br.com.ithappens.model.cupom;
 
 import lombok.Data;
 
+import java.sql.Time;
 import java.time.LocalDate;
 
 @Data
@@ -23,4 +24,6 @@ public class AuditoriaDescontoCupom {
     private Double      quantidade;
     private Integer     sequencia;
     private Long        idLote;
+    private Time        hora;
+
 }
