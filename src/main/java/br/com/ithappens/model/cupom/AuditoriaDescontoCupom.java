@@ -24,6 +24,4 @@ public class AuditoriaDescontoCupom {
     private Double      quantidade;
     private Integer     sequencia;
     private Long        idLote;
-    private Time        hora;
-
 }
