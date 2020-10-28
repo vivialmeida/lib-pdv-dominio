@@ -25,4 +25,6 @@ public class AuditoriaDescontoCupom {
     private Long        idLote;
     private Integer     codPack;
     private String      descPack;
+    private LocalDate   dtInicio;
+    private LocalDate   dtFim;
 }
