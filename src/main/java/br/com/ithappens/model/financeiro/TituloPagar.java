@@ -22,7 +22,7 @@ import java.util.List;
 public class TituloPagar {
       private Long            sequ;
       private Filial          filial;
-      private AgenteCobrador  agenteCobrador;
+      private Long            idAgenteCobrador;
       private TipoCobranca    tipoCobranca;
       private Comprador       comprador;
       private Vendedor        vendedor;
@@ -69,7 +69,7 @@ public class TituloPagar {
       private String          linhaDigitavel;
       private Long            idNotaFiscal;
       private Long            idTrasacaoDda;
-      private TipoLancamento  tipoLancamento;
+      private Long            idTipoLancamento;
       private BigDecimal      percIcms;
       private BigDecimal      percPis;
       private BigDecimal      percCofins;
