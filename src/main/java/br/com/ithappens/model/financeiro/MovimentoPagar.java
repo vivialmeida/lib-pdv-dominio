@@ -18,13 +18,13 @@ import java.util.List;
 public class MovimentoPagar {
       private Long       sequ;
       private Long       sequLancamento;
-      private Integer    tipo;
-      private Integer    idFilial;
-      private Integer    agenteCobrador;
-      private Integer    tipoCobranca;
-      private Integer    idComprador;
-      private Integer    idVendedor;
-      private Integer   idFornecedor;
+      private Long    tipo;
+      private Long    idFilial;
+      private Long    agenteCobrador;
+      private Long    tipoCobranca;
+      private Long    idComprador;
+      private Long    idVendedor;
+      private Long   idFornecedor;
       private LocalDateTime dataMovimento;
       private LocalDate dataVencAtual;
       private LocalDate dataBaixa;
@@ -39,13 +39,13 @@ public class MovimentoPagar {
       private BigDecimal valorDocumento;
       private BigDecimal valorDevedor;
       private String     idBancaria;
-      private Integer    idUsurLancouTitulo;
-      private Integer    idRotinaUsurLancouTitulo;
+      private Long       idUsurLancouTitulo;
+      private Long       idRotinaUsurLancouTitulo;
       private String     idAcesso;
       private String     obse;
       private BigDecimal valorPago;
-      private Integer    idMotivoDesconto;
-      private Integer    idCaixa;
+      private Long       idMotivoDesconto;
+      private Long       idCaixa;
       private String     numeroFatura;
       private Long       idBancoMovimento;
 
