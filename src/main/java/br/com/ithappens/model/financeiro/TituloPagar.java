@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @Builder
@@ -85,4 +87,6 @@ public class TituloPagar {
       private Integer      parcela;
       private Integer      quantidadeParcela;
 
+      //NÃO PERSISTIDO
+      private List<MovimentoPagar> movimentacoes = new ArrayList<>();
 }
