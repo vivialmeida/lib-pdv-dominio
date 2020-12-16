@@ -6,7 +6,7 @@
 
     <groupId>br.com.ithappens</groupId>
     <artifactId>lib-pdv-dominio</artifactId>
-    <version>3.6.0-SNAPSHOT</version>
+    <version>3.6.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <parent>
