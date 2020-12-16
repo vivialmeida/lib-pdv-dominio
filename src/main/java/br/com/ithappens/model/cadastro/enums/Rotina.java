@@ -8,7 +8,8 @@ import java.util.stream.Stream;
 public enum Rotina {
 
       NV_VALIDACAO_DINHEIRO (10133),
-      NV_LANCAMENTO_DESPESA_CARTAO   (10135);
+      NV_LANCAMENTO_DESPESA_CARTAO   (10135),
+      CADASTRO_SEGUNDO_PRECO_VAREJO (10138);
 
       private int id;
 
