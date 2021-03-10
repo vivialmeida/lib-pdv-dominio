@@ -21,4 +21,5 @@ public class LoteTesouraria {
     private Finalizadora   finalizadora;
     private LoteStatus     statusReceber;
     private LoteStatus     statusPagar;
+    private Long           qtdRegistros;
 }

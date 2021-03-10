@@ -3,7 +3,6 @@ package br.com.ithappens.model.financeiro;
 import br.com.ithappens.model.cadastro.*;
 import br.com.ithappens.model.cadastro.enums.Rotina;
 import br.com.ithappens.model.financeiro.enums.StatusTitulo;
-import br.com.ithappens.model.financeiro.enums.TipoLancamento;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
