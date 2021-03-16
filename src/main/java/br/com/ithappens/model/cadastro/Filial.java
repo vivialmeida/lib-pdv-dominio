@@ -16,6 +16,7 @@ public class Filial {
     private Long    id;
     private String  desc;
     private String  sigla;
+    private Integer tipoSegmento;
     private Long    cnpj;
     private Long    inscEsta;
     private Long    numeSequFatura;
@@ -62,5 +63,4 @@ public class Filial {
     private String  usaBalanca;
     private String  descReduzida;
     private Integer rowversion;
-
 }

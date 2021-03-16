@@ -53,4 +53,9 @@ public class Empresa {
     private Long        idBancoMateus;
     private Long        idGrupoFinanceiro;
     private LocalDateTime rowversion;
+
+    public Empresa(){}
+    public Empresa(Long id){
+        this.id = id;
+    }
 }
